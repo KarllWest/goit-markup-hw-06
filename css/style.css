@@ -105,7 +105,7 @@ img {
          display: none;
      }
 
-     .nav {
+     .header-nav {
          display: flex;
          align-items: center;
      }
@@ -181,7 +181,7 @@ img {
       }
  }
 
-@media screen and (min-width: 1158px) {
+ @media screen and (min-width: 1158px) {
     .head-logo {
         margin-right: 76px;
     }
@@ -251,25 +251,6 @@ img {
   margin-left: auto;
 }
 
- @media screen and (min-width: 1158px) {
-    .header-logo {
-        margin-right: 76px;
-    }
-
-     .address-list {
-         flex-direction: row;
-         align-items: center;
-         gap: 40px;
-    }
-
-      .address-link {
-          padding: 24px 0;
-          font-size: 16px;
-          line-height: 1.5;
-          letter-spacing: 0.02em;
-    }
- }
-
 .address-list {
   display: flex;
   align-items: center;
@@ -293,19 +274,6 @@ img {
 }
 
 /* Mobile Menu */
-
-.burger-button {
-    padding: 0;
-    border: none;
-    background-color: transparent;
-}
-
-.burger-icon {
-    display: block;
-    fill: #2f2f37;
-}
-
-
 
 .mobile-menu {
     position: fixed;
@@ -439,7 +407,6 @@ img {
           display: none;
       }
   }
-
 
 /* === Hero === */
 
